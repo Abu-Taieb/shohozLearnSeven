@@ -1,0 +1,305 @@
+*{margin:0; padding:0; font-family:arial;}
+body{
+	background:#d0ecd2;
+}
+#wrapper{
+	width:1120px;
+	margin:0px auto;
+	background-image:url("img/bg.png");
+}
+#mainheader{
+	background:linear-gradient(to right,#F98430,#FAE8BD,#F79D37,#F7CA7D,#F79D37,#FAE8BD,#F98430);
+	height:100px;
+}
+.header{
+	width:960px;
+	margin:0 auto;
+	padding-top:12px;
+}
+.logo{
+	width:290px;
+	float:left;
+	
+}
+.logo img{
+	width:110px;
+	height:80px;
+}
+.headerName{
+	width:320px;
+	float:left;
+}
+.headerName h1{
+	color:#273d63;
+	width:415px;
+	font-size: 28px;
+}
+.headerh3 h3{
+	color:#13a6ef;
+	margin-left: 65px;
+    font-size: 20px;
+}
+.socialIcon{
+	float:right;
+	margin-top:10px;
+}
+.socialIcon a{}
+.socialIcon a img{
+    width: 25px;
+    height: 25px;
+	float:right;
+	margin-right:5px;
+}
+
+#menu{
+	background:#062D52;
+	min-height: 39px;
+	border-bottom:5px solid green;
+}
+#menu ul{
+	width:960px;
+	margin:0 auto;
+	padding: 9px 0px;
+}
+#menu ul li{
+	list-style:none;
+	float:left;
+	
+}
+#menu ul li a{
+	text-decoration:none;
+	color:#fff;
+	padding: 10px 36px;
+	transition:.3s all ease;
+}
+#menu ul li a:hover{
+	background:#008000;
+}
+#slider{
+	margin:0 auto;
+	background:#DAECFC;
+	border-bottom:2px solid #8EAECB;
+}
+.sliderImg{
+	text-align:center;
+}
+#slider img{
+	width:317px;
+}
+#breakingNews{
+	width:960px;
+	margin:10px auto;
+	background:#fff;
+	min-height:30px;
+	border:1px solid #DAECFC;
+}
+
+
+.breakingHeader{
+	width:120px;
+	float:left;
+}
+.breakingHeader h5{
+    padding: 7px 30px;
+    background: #DAECFC;
+}
+.breakingRTL{
+	width:838px;
+	float:left;
+}
+.breakingRTL marquee{
+	padding:6px 0px;
+	color:red;
+}
+
+.clear{
+	clear:both;	
+}
+
+
+
+#sologon{
+	
+}
+.contentSection{
+	width:364px;
+	float:left;
+	margin-right:11px;
+	margin-bottom:10px;
+	border: 1px solid #DAECFC;
+	background:#fff;
+	/* min-height:400px; */
+}
+.noMargin{
+	margin-right:0;
+}
+.contentHeader{
+	background:#DAECFC;
+	padding:8px 20px;
+}
+.contentHeader h5{
+	text-align:center;
+	font-size:12px;
+}
+.importentMenu{
+	padding:0 10px;
+}
+.importentMenu ul li{
+	list-style:none;
+	padding:10px 0;
+	background:#062D52;
+	margin:4px 0;
+	
+	transition:.3s all ease;
+}
+.importentMenu ul li:hover{
+	background:#008000;
+}
+.importentMenu ul li a{
+	text-decoration:none;
+	color:#fff;
+	padding: 13px 91px 11px 10px;
+	font-size:12px;
+}
+.contentMenu{
+	min-height:320px;
+}
+.contentMenu ul{}
+.contentMenu ul li{
+	list-style:none;
+	padding:7px 13px;
+}
+.contentMenu ul li a{
+	text-decoration:none;
+	color:#000000d4;
+	font-size:14px;
+	margin-left:5px;
+	transition:.3s all ease;	
+}
+.contentMenu ul li a:hover{
+	color:#000;
+	margin-left:8px;
+}
+.contentMenu ul li a sub{
+	color:red;
+	font-weight:bold;
+	font-family:arial;
+}
+.contentMenu img{
+	width:100%;
+	height:180px;
+}
+.contentMenu p{
+	color:#000;
+	padding:6px 10px;
+	font-size:14px;
+}
+.testmonial{
+	float:right;
+	margin-top:10px;
+	padding:0 10px;
+}
+.testmonial p{
+	font-weight:bold;
+	text-align:center;
+	font-size:14px;
+}
+.uniHistory{
+	padding:3px 7px;
+}
+.uniHistory img{
+
+}
+.uniHistory p{
+	font-size:14px;
+	text-align:justify;
+	margin:5px 0;	
+}
+/* #service{}
+.noticeSection{}
+.downloadHeader{}
+.downloadHeader h5{}
+.serviceMenu{}
+.serviceMenu ul{}
+.serviceMenu ul li{}
+.serviceMenu ul li a{} */
+#sliderContent{
+	border-bottom:5px solid #008000;
+	
+}
+.sliderImgContent{
+	margin:20px 0 30px 0;
+}
+.sliderImgContent img{
+    width: 271px;
+    height: 170px;
+    margin-right: 7px;
+	
+}
+.sliderImgContent img:last-child{
+	margin-right:0;
+}
+#comunication{
+	background:#DAECFC;
+	min-height:250px;
+	border-bottom:3px solid #008000;
+}
+.footerbg{
+	width:960px;
+	margin:0 auto;
+}
+.footerContent{
+	width:305px;
+	float:left;
+	margin-right:15px;
+}
+.footerHeader{
+	border-bottom:2px solid #728BA0;
+	margin-bottom:15px;
+}
+.footerHeader h5{
+	margin:13px 0;
+}
+.comunicationContent{}
+.comunicationContent h5{
+	margin-bottom:10px;
+}
+.comunicationContent p{
+	font-size:14px;
+	font-family:vardana;
+	
+}
+.comunicationContent p a{
+	text-decoration:none;
+	color:#0000FF;	
+}
+.comunicationContent a{
+	text-decoration:none;	
+}
+.comunicationContent a p{
+	color:#000;
+	margin-bottom:6px;
+}
+.comunicationContent img{
+	width:305px;
+	height:180px;
+}
+.webFooter{
+	background:#002045;
+	min-height:38px;
+	color:#fff;
+	text-align:center;
+	padding:15px 0;
+	margin:0 auto;
+	width:1120px;
+}
+.webFooter h5{
+	margin-bottom:5px;
+}
+.webFooter p{
+	font-size:12px;
+}
+.webFooter p a{
+	color:#fff;
+	text-decoration:none;
+}
